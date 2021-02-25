@@ -4,7 +4,7 @@
 <div id="wrapper">
     <div id="page" class="container">
         <ul class="style1">
-                @foreach ($articles as $article)
+                @forelse ($articles as $article)
                 <li class="first">
                     <h1>
                         <a href="{{ $article->path() }}">{{ $article->title }}</a>
@@ -14,7 +14,9 @@
                     </p>
                     <p>{{ $article->excerpt }}</p>
                 </li>
-                @endforeach
+                @empty
+                    <p>Sem artigos relacionados ainda.</p>
+                @endforelse
             </ul>
     </div>
 </div>

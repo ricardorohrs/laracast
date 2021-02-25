@@ -22,11 +22,11 @@
         </div>
         <div id="menu">
             <ul>
-                <li class="{{ Request::path() === '/' ? 'current_page_item' : '' }}"><a href="/" accesskey="1" title="">Homepage</a></li>
-                <li class="{{ Request::path() === 'clients' ? 'current_page_item' : '' }}"><a href="#" accesskey="2" title="">Our Clients</a></li>
-                <li class="{{ Request::path() === 'about' ? 'current_page_item' : '' }}"><a href="/about" accesskey="3" title="">About Us</a></li>
-                <li class="{{ Request::path() === 'articles' ? 'current_page_item' : '' }}"><a href="/articles" accesskey="4" title="">Articles</a></li>
-                <li class="{{ Request::path() === 'contact' ? 'current_page_item' : '' }}"><a href="#" accesskey="5" title="">Contact Us</a></li>
+                <li class="{{ Request::path() === '/' ? 'current_page_item' : '' }}"><a href="/" accesskey="1" title="">Home</a></li>
+                <li class="{{ Request::path() === 'about' ? 'current_page_item' : '' }}"><a href="/about" accesskey="3" title="">Sobre</a></li>
+                <li class="{{ Request::path() === 'articles' ? 'current_page_item' : '' }}"><a href="/articles" accesskey="4" title="">Blog</a></li>
+                <li class="{{ Request::path() === 'login' ? 'current_page_item' : '' }}"><a href="/login" accesskey="2" title="">Login</a></li>
+                <li class="{{ Request::path() === 'register' ? 'current_page_item' : '' }}"><a href="/register" accesskey="5" title="">Registrar</a></li>
             </ul>
         </div>
     </div>
@@ -35,7 +35,7 @@
 @yield ('content')
 
 <div id="copyright" class="container">
-    <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotograph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    <p>&copy; Ricardo Röhrs. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotograph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
 </html>
