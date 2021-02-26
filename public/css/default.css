@@ -561,6 +561,30 @@ ul.contact li a.icon-rss:before
 	margin-top: 2em;
 }
 
+#form-email {
+    background: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#form-email button {
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#form-email label {
+    font-size: large;
+}
+
+#form-email input {
+    width: 350px;
+}
+
+
+
 /*********************************************************************************/
 /* Content                                                                       */
 /*********************************************************************************/
@@ -578,7 +602,7 @@ ul.contact li a.icon-rss:before
 	#sidebar
 	{
 		float: right;
-		width: 450px;
+		width: 400px;
 	}
 
 	#stwo-col
@@ -589,7 +613,7 @@ ul.contact li a.icon-rss:before
 	#stwo-col h2
 	{
 		display: block;
-		padding-bottom: 1.5em;
+		padding-bottom: 1em;
 		letter-spacing: 0.10em;
 		text-transform: uppercase;
 		font-size: 1.2em;
@@ -597,17 +621,6 @@ ul.contact li a.icon-rss:before
 		color: #454445;
 	}
 
-	#stwo-col .sbox1
-	{
-		float: left;
-		width: 210px;
-	}
-
-	#stwo-col .sbox2
-	{
-		float: right;
-		width: 210px;
-	}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
